@@ -12,16 +12,13 @@ For more info about `create-tiny-store` check the [NPM](https://www.npmjs.com/pa
 
 ## Quick links
 
-Observable
-- [createObservable](#create-observable)
-- [Listen for observable changes](#listen-for-observable-changes)
-- [Modify observable value](#modify-observable-value)
-
-Store
-- [createStore](#create-store)
-- [Listen for store changes](#listen-for-store-changes)
-- [Modify store value](#modify-store-value)
-- [Advanced store example](#advanced-store-example)
+- [Available hooks](#available-hooks)
+- [Using global observable](#using-global-observable)
+- [Using global store](#using-global-store)
+- [Using local observable](#using-local-observable)
+- [Using local observable (optimized)](#using-local-observable-optimized)
+- [Using local store](#using-local-store)
+- [Using local store (optimized)](#using-local-store-optimized)
 
 &nbsp;\
 &nbsp;\
@@ -203,7 +200,7 @@ function LocalStoreCounter() {
 }
 ```
 
-## Using local store (optimized) - useStore + useValue
+## Using local store (optimized)
 `useStore( storeOrStoreInitFunction, actionsInitFunction, noEmitChanges )`\
 `useValue( observable, getter )`
 
