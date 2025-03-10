@@ -9,8 +9,8 @@ importers:
   .:
     dependencies:
       create-tiny-store:
-        specifier: ^1.0.0
-        version: 1.0.0
+        specifier: ^1.0.1
+        version: 1.0.1
       react:
         specifier: latest
         version: 19.0.0
@@ -27,8 +27,8 @@ packages:
   '@types/react@19.0.10':
     resolution: {integrity: sha512-JuRQ9KXLEjaUNjTWpzuR231Z2WpIwczOkBEIvbHNCzQefFIT0L8IqE6NV6ULLyC1SI/i234JnDoMkfg+RjQj2g==}
 
-  create-tiny-store@1.0.0:
-    resolution: {integrity: sha512-OpZRHazzXL5YIZQgoPU0/Qf1LT4EGGJtuJyuhcFky5i7v/82004wICw88owjNh4n8Hmn6sQLnpapKb+NFxZzDw==}
+  create-tiny-store@1.0.1:
+    resolution: {integrity: sha512-dCgVIw2DBZzYqLTaAgoNewsY5PMJaI5dBoi7rW+JB1y9KdmwzWink/tdZvX7JfnI7L5aNSvI8x4yvaWKau9A+w==}
 
   csstype@3.1.3:
     resolution: {integrity: sha512-M1uQkMl8rQK/szD0LNhtqxIPLpimGm8sOBwU7lLnCpSbTyY3yeU1Vc7l4KT5zT4s/yOxHH5O7tIuuLOCnLADRw==}
@@ -48,7 +48,7 @@ snapshots:
     dependencies:
       csstype: 3.1.3
 
-  create-tiny-store@1.0.0: {}
+  create-tiny-store@1.0.1: {}
 
   csstype@3.1.3: {}
 
