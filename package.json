@@ -6,9 +6,10 @@
     "email": "marekzeman91+npm@gmail.com",
     "url": "https://marekzeman91.github.io/"
   },
-  "version": "1.0.1",
+  "version": "1.0.2",
   "main": "lib/index.js",
   "types": "lib/index.d.ts",
+  "type": "module",
   "scripts": {
     "build": "tsc"
   },
@@ -16,7 +17,7 @@
     "lib"
   ],
   "dependencies": {
-    "create-tiny-store": "^1.0.1",
+    "create-tiny-store": "^1.0.2",
     "react": "latest"
   },
   "devDependencies": {
