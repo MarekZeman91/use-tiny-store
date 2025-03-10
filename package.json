@@ -1,0 +1,26 @@
+{
+  "name": "use-tiny-store",
+  "description": "A super tiny React hook collection to use with create-tiny-store.",
+  "author": {
+    "name": "Marek Zeman",
+    "email": "marekzeman91+npm@gmail.com",
+    "url": "https://marekzeman91.github.io/"
+  },
+  "version": "1.0.0",
+  "main": "lib/index.js",
+  "types": "lib/index.d.ts",
+  "scripts": {
+    "build": "tsc"
+  },
+  "files": [
+    "lib"
+  ],
+  "dependencies": {
+    "create-tiny-store": "^1.0.0",
+    "react": "latest"
+  },
+  "devDependencies": {
+    "@types/react": "latest",
+    "typescript": "^5.8.2"
+  }
+}
